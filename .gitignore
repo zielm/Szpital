@@ -1,0 +1,6 @@
+# ignore all files in any directory named build
+build/
+
+# ignore provate files from netbeans 
+nbproject/private/
+/dist/

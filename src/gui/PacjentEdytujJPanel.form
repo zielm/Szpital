@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Events>
+    <EventHandler event="componentRemoved" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="formComponentRemoved"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,17,0,0,2,32"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+          <CardConstraints cardName="card2"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel1" min="-2" pref="95" max="-2" attributes="0"/>
+                              <EmptySpace pref="282" max="32767" attributes="0"/>
+                              <Component id="przywrocButton" min="-2" pref="147" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="stanLabel" min="-2" pref="159" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="159" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="miejsceLabel" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                                                      <Component id="telefonLabel" alignment="0" min="-2" pref="85" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="miejsceText" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                                                      <Component id="telefonText" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="adresLabel" min="-2" pref="84" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="adresText" min="-2" pref="316" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <EmptySpace min="-2" pref="297" max="-2" attributes="0"/>
+                                                      <Component id="wiekText" min="-2" pref="101" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Group type="102" alignment="1" attributes="0">
+                                                              <Component id="nazwiskoLabel" min="-2" pref="84" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="nazwiskoText" min="-2" pref="101" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" alignment="1" attributes="0">
+                                                              <Component id="imieLabel" min="-2" pref="84" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="imieText" min="-2" pref="101" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" alignment="1" attributes="0">
+                                                              <Component id="plecLabel" min="-2" pref="85" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="plecComboBox" min="-2" pref="100" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <Component id="drugieLabel" min="-2" pref="85" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="drugieText" min="-2" pref="101" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <Component id="rodoweLabel" min="-2" pref="85" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="rodoweText" min="-2" pref="101" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="peselLabel" min="-2" pref="84" max="-2" attributes="0"/>
+                                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="idText" max="32767" attributes="0"/>
+                                                      <Component id="peselText" min="-2" pref="101" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                                  <Component id="wiekLabel" min="-2" pref="85" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jScrollPane1" alignment="1" min="-2" pref="484" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                      <Component id="edytujUpowaznienieButton" min="-2" pref="177" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="usunUpowaznienieButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="upowaznieniaLabel" min="-2" pref="85" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="239" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="zapiszPacjentaButton" min="-2" pref="159" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="usunPacjentaButton" min="-2" pref="159" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="upowaznienieButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="wyjdzButton" min="-2" pref="145" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Component id="wyjdzButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="przywrocButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="idText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="peselLabel" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="wiekLabel" alignment="3" max="-2" attributes="0"/>
+                          <Component id="peselText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="wiekText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="plecLabel" alignment="3" max="-2" attributes="0"/>
+                      <Component id="plecComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="imieLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="imieText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugieText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugieLabel" alignment="3" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="rodoweLabel" alignment="3" max="-2" attributes="0"/>
+                          <Component id="rodoweText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="nazwiskoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nazwiskoText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="adresLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="adresText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="miejsceLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="miejsceText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="telefonLabel" alignment="3" max="-2" attributes="0"/>
+                      <Component id="telefonText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="zapiszPacjentaButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="usunPacjentaButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="stanLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="upowaznieniaLabel" alignment="3" max="-2" attributes="0"/>
+                      <Component id="upowaznienieButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="135" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="edytujUpowaznienieButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="usunUpowaznienieButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="edytujUpowaznienieButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edytuj wybrane upowa&#x17c;nienie"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="edytujUpowaznienieButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="miejsceLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Miejsce ur.:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="miejsceText">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="imieLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Imi&#x119;:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugieText">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="rodoweText">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="telefonLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Telefon:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="peselText">
+        </Component>
+        <Component class="javax.swing.JLabel" name="plecLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="P&#x142;e&#x107;:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="drugieLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Drugie imi&#x119;:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="telefonText">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="zapiszPacjentaButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Zapisz zmiany"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="zapiszPacjentaButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="wiekText">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+              <Format subtype="2" type="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="rodoweLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nazw. rodowe:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="adresText">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="wyjdzButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Wr&#xf3;&#x107;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wyjdzButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="peselLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pesel:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="wiekLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Wiek:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="stanLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Stan: aktualny"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="upowaznieniaTable">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="5" rowCount="0">
+                    <Column editable="false" title="id" type="java.lang.Long"/>
+                    <Column editable="false" title="st. pokr." type="java.lang.String"/>
+                    <Column editable="false" title="imie" type="java.lang.String"/>
+                    <Column editable="false" title="nazwisko" type="java.lang.String"/>
+                    <Column editable="false" title="numer telefonu" type="java.lang.Long"/>
+                  </Table>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="upowaznieniaTableMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="upowaznieniaLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Upowa&#x17c;nienia:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="plecComboBox">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value=" "/>
+                <StringItem index="1" value="K"/>
+                <StringItem index="2" value="M"/>
+              </StringArray>
+            </Property>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Id:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="przywrocButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Przywr&#xf3;&#x107; dane"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="przywrocButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edytuj pacjenta:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="upowaznienieButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dodaj nowe upowa&#x17c;nienie"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="upowaznienieButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="nazwiskoText">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="adresLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Adres:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="idText">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="imieText">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="nazwiskoLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nazwisko:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="usunUpowaznienieButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Usu&#x144; wybrane upowa&#x17c;nienie"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="usunUpowaznienieButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="usunPacjentaButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Usu&#x144; pacjenta"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="usunPacjentaButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
